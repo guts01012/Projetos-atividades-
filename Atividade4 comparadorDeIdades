@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ComparadorDeIdades {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Digite a idade da primeira pessoa: ");
+        int idadePessoa1 = entrada.nextInt();
+
+        System.out.print("Digite a idade da segunda pessoa: ");
+        int idadePessoa2 = entrada.nextInt();
+
+        boolean primeiraMaisVelha = idadePessoa1 > idadePessoa2;
+
+        System.out.println("A primeira pessoa é mais velha: " + primeiraMaisVelha);
+        
+    }
+}
